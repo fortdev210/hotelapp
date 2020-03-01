@@ -1,8 +1,8 @@
 import React from 'react';
-import Hero from '../components/heroComponent/Hero';
-import Banner from '../components/bannerComponent/Banner';
-import Services from '../components/servicesComponent/Services';
-import FeaturedRooms from '../components/featuredRoomsComponent/FeaturedRooms';
+import Hero from '../components/hero/index';
+import Banner from '../components/banner/index';
+import Services from '../components/services/index';
+import FeaturedRooms from '../components/featuredRooms/index';
 
 import { Link } from 'react-router-dom';
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Title from '../titleComponent/Title';
+import Title from '../title/index';
 
 import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from 'react-icons/fa';
 
