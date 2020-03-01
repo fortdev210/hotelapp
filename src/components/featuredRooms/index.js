@@ -21,7 +21,6 @@ class FeaturedRooms extends Component {
         <div className="featured-room-center">
           { loading ? <Loading /> : rooms }
         </div>
-        <Loading />
       </section>
     );
   }
