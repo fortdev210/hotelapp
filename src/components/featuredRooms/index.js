@@ -4,6 +4,8 @@ import Loading from '../Loading';
 import Room from '../room/index';
 import Title from '../title';
 
+import './featuredRooms.css';
+
 class FeaturedRooms extends Component {
   static contextType = RoomContext;
 
@@ -18,7 +20,7 @@ class FeaturedRooms extends Component {
     return (
       <section className="featured-rooms">
         <Title title="featured rooms"/>
-        <div className="featured-room-center">
+        <div className="featured-rooms-center">
           { loading ? <Loading /> : rooms }
         </div>
       </section>
