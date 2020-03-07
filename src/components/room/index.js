@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import defaultImage from '../../assets/images/file-missing.png';
+import PropTypes from "prop-types";
 
 import './room.css';
 
@@ -22,6 +23,16 @@ function Room({ room }) {
       <p className="room-info"> {name} </p>
     </article>
   );
+}
+
+// For checking the type of props 
+Room.propTypes = {
+  room: PropTypes.shape({
+    name  : PropTypes.string.isRequired,
+    slug  : PropTypes.string.isRequired,
+    images: PropTypes.arrayOf(PropTypes.string).isRequired,
+    price : PropTypes.number.isRequired
+  })
 }
 
 export default Room;
