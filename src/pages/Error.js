@@ -1,3 +1,5 @@
+// for handling 404 pages
+
 import React from 'react';
 import Hero from '../components/hero/index';
 import Banner from '../components/banner/index';

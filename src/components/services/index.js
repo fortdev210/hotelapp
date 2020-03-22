@@ -6,6 +6,7 @@ import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from 'react-icons/fa';
 import './services.css';
 
 export class Services extends Component {
+  // for icons used in services sections on home page.
   state = {
     services: [
       {

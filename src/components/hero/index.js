@@ -9,6 +9,7 @@ function Hero({ children, hero }) {
   );
 }
 
+// types of props
 Hero.defaultProps = {
   hero: "default-hero"
 }

@@ -17,7 +17,7 @@ class SingleRoom extends Component {
   }
   static contextType = RoomContext;
 
-
+  // below lifecycle is canbe used to fetch data from API in this case.
   // componentDidMount() {}
 
   render() {
