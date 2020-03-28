@@ -56,13 +56,13 @@ h4 {
 
 h5 {
   font-size: 1em;
-  line-height: bold;
+  font-weight: bold;
   margin-bottom: 1.5em;
 }
 
 h6 {
   font-size: 1em;
-  line-height: bold;
+  font-weight: bold;
   margin-bottom: 1.5em;
 }
 
@@ -136,7 +136,9 @@ h6 {
 }
 
 .info h6 {
-  font-weight: 300;
+  font-weight: 400;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 .room-extras {
   width: 80vw;
@@ -152,6 +154,7 @@ h6 {
   grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   grid-column-gap: 2rem;
   grid-row-gap: 1rem;
+  padding-left: 0;
 }
 @media screen and (min-width: 992px) {
   .single-room-images,
