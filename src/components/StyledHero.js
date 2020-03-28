@@ -1,5 +1,3 @@
-// Styled component
-
 import styled from 'styled-components';
 import defaultImg from '../assets/images/room-1.jpeg';
 
