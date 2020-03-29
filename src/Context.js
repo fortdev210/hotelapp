@@ -38,7 +38,7 @@ class RoomProvider extends Component {
     return tempItems;
   }
 
-  // For 
+  // For individual rooms url
   getRoom = slug => {
     let tempRooms = [...this.state.rooms];
     const room = tempRooms.find(room => room.slug === slug)
@@ -56,5 +56,16 @@ class RoomProvider extends Component {
 }
 
 const RoomConsumer = RoomContext.Consumer;
+
+// in case of hooks 
+export function withRoomConsumer(Component) {
+  return function ConsumerWrapper(props) {
+    return (
+      <RoomConsumer>
+        { value => <Component {...props} context={value} /> }
+      </RoomConsumer>
+    );
+  }
+}
 
 export { RoomProvider, RoomConsumer, RoomContext }; 

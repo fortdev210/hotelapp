@@ -7,12 +7,14 @@ import { Link } from 'react-router-dom';
 
 function Rooms() {
   return (
-    <Hero hero="rooms-hero">
-      <Banner title="Our Rooms">
-        <Link to="/" className="btn-primary"> Return Home </Link>
-      </Banner>
+    <>
+      <Hero hero="rooms-hero">
+        <Banner title="Our Rooms">
+          <Link to="/" className="btn-primary"> Return Home </Link>
+        </Banner>
+      </Hero>
       <RoomsContainer />
-    </Hero>
+    </>
   );
 }
 
