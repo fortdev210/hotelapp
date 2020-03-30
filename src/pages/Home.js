@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   return (
-    <div>
+    <>
       <Hero>
         <Banner title="Luxurios Rooms" subtitle="Deluxe rooms starting at $299">
           <Link to="/rooms" className="btn-primary"> Our Rooms </Link>
@@ -16,7 +16,7 @@ function Home() {
       </Hero>
       <Services />
       <FeaturedRooms />
-    </div>
+    </>
   );
 }
 

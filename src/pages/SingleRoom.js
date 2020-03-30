@@ -77,9 +77,9 @@ class SingleRoom extends Component {
             }) }
           </ul>
         </section>
-    </>
+      </>
     );
   }
 }
 
-export default SingleRoom
+export default SingleRoom;
