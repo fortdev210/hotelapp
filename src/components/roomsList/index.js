@@ -4,7 +4,8 @@ import Room from '../room/index';
 import './roomsList.css';
 
 function RoomsList({ rooms }) {
-
+  
+  // deplay the h3 text if there's no room based on the search filters
   if ( rooms.length === 0 ) {
     return (
       <div className="empty-search">
